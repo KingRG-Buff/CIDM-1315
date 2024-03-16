@@ -1,0 +1,44 @@
+.hero-section {
+    height: 100vh;
+    background-color: #f0f0f0; /* Light grey background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    color: #333; /* Dark grey text color */
+}
+
+/* General navbar styling */
+.navbar {
+    background-color: #5f8ca3; /* Grey-blue background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Navbar brand/logo styling */
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff; /* White text for contrast */
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Navbar link styling */
+.navbar a {
+    color: #ffffff; /* White text color */
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Navbar link hover and focus styling */
+.navbar a:hover,
+.navbar a:focus {
+    color: #ffcc00; /* Bright color for hover and focus */
+    text-decoration: none; /* Removes underline from links on hover/focus */
+}
+
+/* Navbar fixed-bottom specific styling, if needed */
+.fixed-bottom {
+    border-top: 2px solid #0066cc; /* Add a top border for fixed-bottom navbar */
+}
+
